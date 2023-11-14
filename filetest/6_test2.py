@@ -1,3 +1,5 @@
+#查找含有指定内容的文件
+
 # coding:utf-8
 
 import glob
