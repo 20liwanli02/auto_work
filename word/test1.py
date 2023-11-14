@@ -1,3 +1,5 @@
+#段落内容读取
+#表格内容读取
 # coding:utf-8
 
 from docx import Document
