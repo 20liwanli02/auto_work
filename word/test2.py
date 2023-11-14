@@ -52,6 +52,7 @@ def search_word(path, targets):
 
 
 if __name__ == '__main__':
-    path = glob.os.path.join(glob.os.getcwd(), '*')
+    #glob.os.path.join() == os.path.join()
+    path = glob.os.path.join(glob.os.getcwd(), '*')#'*',当前工程下的所有的文件
     res = search_word(path, ['python', 'golang', 'react', '最佳'])
     print(res)
